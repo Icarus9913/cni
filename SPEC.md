@@ -155,7 +155,7 @@ Examples include generating an `/etc/resolv.conf` file to be injected into the c
 Errors are indicated by a non-zero return code and the following JSON being printed to stdout:
 ```
 {
-  "cniVersion": "0.2.0",
+  "cniVersion": "0.3.0",
   "code": <numeric-error-code>,
   "msg": <short-error-message>,
   "details": <long-error-message> (optional)
